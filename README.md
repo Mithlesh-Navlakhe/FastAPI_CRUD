@@ -24,5 +24,7 @@ Install Uvicorn:
 
 Install Starlette:
 > pip install starlette
+
   Or
+  
 > pip install fastapi uvicorn starlette
