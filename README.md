@@ -17,12 +17,12 @@ Introduction to FastAPI
 Before We Start need to install:
 
 Install FastAPI:
-pip install fastapi
+> pip install fastapi
 
 Install Uvicorn:
-pip install uvicorn
+> pip install uvicorn
 
 Install Starlette:
-pip install starlette
+> pip install starlette
         Or
-pip install fastapi uvicorn starlette
+> pip install fastapi uvicorn starlette
