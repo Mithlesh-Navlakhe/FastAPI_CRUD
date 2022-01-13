@@ -28,3 +28,6 @@ Install Starlette:
   Or
   
 > pip install fastapi uvicorn starlette
+
+# File structure
+![HTTP Methods](https://github.com/Mithlesh-Navlakhe/FastAPI_CRUD/blob/main/asset/Snap001.png)
