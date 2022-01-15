@@ -31,3 +31,39 @@ Install Starlette:
 
 # File structure
 ![HTTP Methods](https://github.com/Mithlesh-Navlakhe/FastAPI_CRUD/blob/main/asset/Snap001.png)
+
+# Create model from base model
+
+```
+class City(BaseModel):
+    name: str
+    pincode: int
+```    
+
+# Post method
+
+```
+@app.post('/cities')
+def create_city(city: City):
+    db.append(city.dict())
+    return db[-1]
+```
+# Get method
+```
+@app.get('/cities')
+def get_cities():
+    return db
+```
+# Delete method
+```
+@app.delete('/cities/{city_id}')
+def delete_city(city_id: int):
+    db.pop(city_id-1)
+    return {}
+```
+# Get selected record
+```
+@app.get('/cities/{city_id}')
+def get_city(city: int):
+    return db[city-1]
+```
