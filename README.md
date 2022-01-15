@@ -71,4 +71,5 @@ def get_city(city: int):
 ```
 python main.py
 ```
+Now, this is the additional function from FastAPI that really makes me excited which is the automated generated docs (Swagger UI). To access the Swagger UI enter the API endpoint /docs and there you go — an interactive GUI to test your API endpoints. Having a Swagger UI makes it easier to explain your program to others as well.
 
