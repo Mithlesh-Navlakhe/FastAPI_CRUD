@@ -67,3 +67,8 @@ def delete_city(city_id: int):
 def get_city(city: int):
     return db[city-1]
 ```
+# Run it
+```
+python main.py
+```
+
