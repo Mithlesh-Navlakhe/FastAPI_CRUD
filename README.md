@@ -75,4 +75,5 @@ Now, this is the additional function from FastAPI that really makes me excited w
 
 ![HTTP Methods](https://github.com/Mithlesh-Navlakhe/FastAPI_CRUD/blob/main/asset/Snap002.png)
 
+# Get method
 ![HTTP Methods](https://github.com/Mithlesh-Navlakhe/FastAPI_CRUD/blob/main/asset/Snap003.png)
